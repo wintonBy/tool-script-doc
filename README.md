@@ -11,4 +11,10 @@ keytool-importkeypair -k <keystore文件> -p <密码> -pk8 <密钥文件> -cert 
 keytool-importkeypair -k ~/.android/debug.keystore -p android -pk8 platform.pk8 -cert platform.x509.pem -alias platform
 ```
 
-# app
+# app_cert.sh 查看apk签名
+用法:
+./app_cert.sh <apk文件>
+```
+示例：
+./apk_cert.sh test.apk
+```
